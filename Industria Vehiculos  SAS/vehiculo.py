@@ -58,22 +58,22 @@ class Vehiculo:
         return f"El vehiculo {self._modelo} apaga su motor {self._motor}"
 
     def aceleracion_frenado(self):
-        return f"El vehiculo acelera con motor a {self._tipo_combustible} y frena con el pedal"
+        return f"El vehiculo {self._modelo} acelera con motor a {self._tipo_combustible} y frena con el pedal"
 
     def sistema_direccion(self):
-        return "El vehiculo gira con el volante"
+        return f"El {self._modelo} vehiculo gira con el volante"
 
     def climatizacion(self):
-        return "El vehiculo enciende el aire acondicionado"
+        return f"El vehiculo {self._modelo} enciende el aire acondicionado"
 
     def tipo_seguridad(self):
-        return f"El vehiculo tiene cinturones para {self._capacidad_pasajeros} pasajeros"
+        return f"El vehiculo {self._modelo} tiene cinturones para {self._capacidad_pasajeros} pasajeros"
 
     def luces(self):
-        return "El vehiculo enciende las luces delanteras y traseras"
+        return f"El vehiculo {self._modelo} enciende las luces delanteras y traseras"
 
     def sistema_ventanas(self):
-        return f"El vehiculo sube y baja las ventanas de sus {self._numero_puertas} puertas"
+        return f"El vehiculo {self._modelo} sube y baja las ventanas de sus {self._numero_puertas} puertas"
 
     def sistema_espejo(self):
-        return "El vehiculo ajusta los espejos retrovisores"
+        return f"El vehiculo {self._modelo} ajusta los espejos retrovisores"
