@@ -21,7 +21,10 @@ class Animal:
         return self._edad
 
     def set_edad(self, nuevo_valor):
-        self._edad = nuevo_valor
+        if (nuevo_valor >= 0):
+            self._edad = nuevo_valor
+        else:
+            print(f"La edad no puede ser negativa")
 
     # Habitat
     def get_habitat(self):
